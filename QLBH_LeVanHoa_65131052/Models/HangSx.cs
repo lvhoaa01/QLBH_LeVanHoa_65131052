@@ -8,28 +8,29 @@ using Microsoft.EntityFrameworkCore;
 
 namespace QLBH_LeVanHoa_65131052.Models;
 
-[Table("LoaiSP")]
-public partial class LoaiSp
+[Table("HangSX")]
+public partial class HangSx
 {
     [Key]
+    [Column("MaHSX")]
     [StringLength(10)]
     [Unicode(false)]
-    public string MaLoai { get; set; }
+    public string MaHsx { get; set; }
 
     [Required]
+    [Column("TenHSX")]
     [StringLength(50)]
-    public string TenLoai { get; set; }
+    public string TenHsx { get; set; }
 
     [Required]
-    [Column("MaNSP")]
     [StringLength(10)]
     [Unicode(false)]
-    public string MaNsp { get; set; }
+    public string MaNuoc { get; set; }
 
-    [ForeignKey("MaNsp")]
-    [InverseProperty("LoaiSps")]
-    public virtual NhomSp MaNspNavigation { get; set; }
+    [ForeignKey("MaNuoc")]
+    [InverseProperty("HangSxes")]
+    public virtual Nuoc MaNuocNavigation { get; set; }
 
-    [InverseProperty("MaLoaiNavigation")]
+    [InverseProperty("MaHsxNavigation")]
     public virtual ICollection<SanPham> SanPhams { get; set; } = new List<SanPham>();
 }

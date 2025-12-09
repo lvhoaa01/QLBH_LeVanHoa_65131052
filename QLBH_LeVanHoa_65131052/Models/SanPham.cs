@@ -46,11 +46,21 @@ public partial class SanPham
     [Unicode(false)]
     public string MaNcc { get; set; }
 
+    [Required]
+    [Column("MaHSX")]
+    [StringLength(10)]
+    [Unicode(false)]
+    public string MaHsx { get; set; }
+
     [InverseProperty("MaSpNavigation")]
     public virtual ICollection<Ctbh> Ctbhs { get; set; } = new List<Ctbh>();
 
     [InverseProperty("MaSpNavigation")]
     public virtual ICollection<Ctmh> Ctmhs { get; set; } = new List<Ctmh>();
+
+    [ForeignKey("MaHsx")]
+    [InverseProperty("SanPhams")]
+    public virtual HangSx MaHsxNavigation { get; set; }
 
     [ForeignKey("MaLoai")]
     [InverseProperty("SanPhams")]

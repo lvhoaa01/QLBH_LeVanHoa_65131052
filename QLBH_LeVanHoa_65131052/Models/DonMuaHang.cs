@@ -26,10 +26,20 @@ public partial class DonMuaHang
     [Unicode(false)]
     public string MaNcc { get; set; }
 
+    [Required]
+    [Column("MaNV")]
+    [StringLength(20)]
+    [Unicode(false)]
+    public string MaNv { get; set; }
+
     [InverseProperty("MaDmhNavigation")]
     public virtual ICollection<Ctmh> Ctmhs { get; set; } = new List<Ctmh>();
 
     [ForeignKey("MaNcc")]
     [InverseProperty("DonMuaHangs")]
     public virtual NhaCc MaNccNavigation { get; set; }
+
+    [ForeignKey("MaNv")]
+    [InverseProperty("DonMuaHangs")]
+    public virtual NhanVien MaNvNavigation { get; set; }
 }

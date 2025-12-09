@@ -21,11 +21,19 @@ public partial class QLBHContext : DbContext
 
     public virtual DbSet<DonMuaHang> DonMuaHangs { get; set; }
 
+    public virtual DbSet<HangSx> HangSxes { get; set; }
+
     public virtual DbSet<KhachHang> KhachHangs { get; set; }
 
     public virtual DbSet<LoaiSp> LoaiSps { get; set; }
 
     public virtual DbSet<NhaCc> NhaCcs { get; set; }
+
+    public virtual DbSet<NhanVien> NhanViens { get; set; }
+
+    public virtual DbSet<NhomSp> NhomSps { get; set; }
+
+    public virtual DbSet<Nuoc> Nuocs { get; set; }
 
     public virtual DbSet<SanPham> SanPhams { get; set; }
 
@@ -55,40 +63,68 @@ public partial class QLBHContext : DbContext
 
         modelBuilder.Entity<DonBanHang>(entity =>
         {
-            entity.HasKey(e => e.MaDbh).HasName("PK__DonBanHa__3D8B875D6946004D");
+            entity.HasKey(e => e.MaDbh).HasName("PK__DonBanHa__3D8B875DFA8C6FB3");
 
             entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.DonBanHangs).HasConstraintName("FK_DonBanHang_KhachHang");
         });
 
         modelBuilder.Entity<DonMuaHang>(entity =>
         {
-            entity.HasKey(e => e.MaDmh).HasName("PK__DonMuaHa__3D8821AD95954CE1");
+            entity.HasKey(e => e.MaDmh).HasName("PK__DonMuaHa__3D8821AD447C9088");
 
             entity.HasOne(d => d.MaNccNavigation).WithMany(p => p.DonMuaHangs).HasConstraintName("FK_DonMuaHang_NhaCC");
+
+            entity.HasOne(d => d.MaNvNavigation).WithMany(p => p.DonMuaHangs).HasConstraintName("FK_DonMuaHang_NhanVien");
+        });
+
+        modelBuilder.Entity<HangSx>(entity =>
+        {
+            entity.HasKey(e => e.MaHsx).HasName("PK__HangSX__3C90113CCBFFBAA3");
+
+            entity.HasOne(d => d.MaNuocNavigation).WithMany(p => p.HangSxes).HasConstraintName("FK_HangSX_Nuoc");
         });
 
         modelBuilder.Entity<KhachHang>(entity =>
         {
-            entity.HasKey(e => e.MaKh).HasName("PK__KhachHan__2725CF1EF1FB48F3");
+            entity.HasKey(e => e.MaKh).HasName("PK__KhachHan__2725CF1E391AC94B");
 
             entity.HasOne(d => d.MaXaNavigation).WithMany(p => p.KhachHangs).HasConstraintName("FK_KhachHang_Xa");
         });
 
         modelBuilder.Entity<LoaiSp>(entity =>
         {
-            entity.HasKey(e => e.MaLoai).HasName("PK__LoaiSP__730A5759C1A9EA6E");
+            entity.HasKey(e => e.MaLoai).HasName("PK__LoaiSP__730A57599F4CE2DF");
+
+            entity.HasOne(d => d.MaNspNavigation).WithMany(p => p.LoaiSps).HasConstraintName("FK_LoaiSP_NhomSP");
         });
 
         modelBuilder.Entity<NhaCc>(entity =>
         {
-            entity.HasKey(e => e.MaNcc).HasName("PK__NhaCC__3A185DEBE7BDFD75");
+            entity.HasKey(e => e.MaNcc).HasName("PK__NhaCC__3A185DEB4F5295E5");
 
             entity.HasOne(d => d.MaXaNavigation).WithMany(p => p.NhaCcs).HasConstraintName("FK_NhaCC_Xa");
         });
 
+        modelBuilder.Entity<NhanVien>(entity =>
+        {
+            entity.HasKey(e => e.MaNv).HasName("PK__NhanVien__2725D70A21DF1DD9");
+        });
+
+        modelBuilder.Entity<NhomSp>(entity =>
+        {
+            entity.HasKey(e => e.MaNsp).HasName("PK__NhomSP__3A1BDBEAE1F26AF0");
+        });
+
+        modelBuilder.Entity<Nuoc>(entity =>
+        {
+            entity.HasKey(e => e.MaNuoc).HasName("PK__Nuoc__21306FEA125A702B");
+        });
+
         modelBuilder.Entity<SanPham>(entity =>
         {
-            entity.HasKey(e => e.MaSp).HasName("PK__SanPham__2725081CCB23E0AB");
+            entity.HasKey(e => e.MaSp).HasName("PK__SanPham__2725081C11528D96");
+
+            entity.HasOne(d => d.MaHsxNavigation).WithMany(p => p.SanPhams).HasConstraintName("FK_SanPham_HangSX");
 
             entity.HasOne(d => d.MaLoaiNavigation).WithMany(p => p.SanPhams).HasConstraintName("FK_SanPham_LoaiSP");
 
@@ -97,12 +133,12 @@ public partial class QLBHContext : DbContext
 
         modelBuilder.Entity<Tinh>(entity =>
         {
-            entity.HasKey(e => e.MaTinh).HasName("PK__Tinh__4CC54480B8E85529");
+            entity.HasKey(e => e.MaTinh).HasName("PK__Tinh__4CC544806A343A7D");
         });
 
         modelBuilder.Entity<Xa>(entity =>
         {
-            entity.HasKey(e => e.MaXa).HasName("PK__Xa__272520C9E8691CB3");
+            entity.HasKey(e => e.MaXa).HasName("PK__Xa__272520C96DAC4D5A");
 
             entity.HasOne(d => d.MaTinhNavigation).WithMany(p => p.Xas).HasConstraintName("FK_Xa_Tinh");
         });

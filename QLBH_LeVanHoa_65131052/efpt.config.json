@@ -32,6 +32,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[HangSX]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[KhachHang]",
          "ObjectType": 0
       },
@@ -41,6 +45,18 @@
       },
       {
          "Name": "[dbo].[NhaCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NhanVien]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NhomSP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Nuoc]",
          "ObjectType": 0
       },
       {
