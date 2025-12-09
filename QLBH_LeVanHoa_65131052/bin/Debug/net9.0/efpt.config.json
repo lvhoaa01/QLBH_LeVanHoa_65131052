@@ -1,0 +1,86 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "QLBHContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "MinimumProductVersion": "2.6.1186",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "QLBH_LeVanHoa_65131052",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CTBH]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CTMH]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonBanHang]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonMuaHang]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KhachHang]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LoaiSP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NhaCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SanPham]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tinh]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Xa]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

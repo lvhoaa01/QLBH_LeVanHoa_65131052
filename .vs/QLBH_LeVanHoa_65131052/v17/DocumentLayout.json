@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QLBH_LeVanHoa_65131052\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\models\\qlbhcontext.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\models\\qlbhcontext.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\models\\qlbhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\models\\qlbhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\khachhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\khachhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\khachhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\khachhangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\khachhangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\models\\modelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\models\\modelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|d:\\qlbh_levanhoa_65131052\\qlbh_levanhoa_65131052\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1955FF3E-1C68-4CC3-8A60-0A3A3CF189F6}|QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052.csproj|solutionrelative:qlbh_levanhoa_65131052\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:45:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KhachHangsController.cs",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Controllers\\KhachHangsController.cs",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Controllers\\KhachHangsController.cs",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Controllers\\KhachHangsController.cs",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Controllers\\KhachHangsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAMwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:57:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Details.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Details.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:05:38.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Index.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Index.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAD4vzIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:06:36.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLBHContext.cs",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\QLBHContext.cs",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Models\\QLBHContext.cs",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\QLBHContext.cs",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Models\\QLBHContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:50:04.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLBHContext.Methods.cs",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\QLBHContext.Methods.cs",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Models\\QLBHContext.Methods.cs",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\QLBHContext.Methods.cs",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Models\\QLBHContext.Methods.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:55:34.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Edit.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Edit.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:22:58.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:45:07.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Delete.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Delete.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:24:28.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Create.cshtml",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Create.cshtml",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Views\\KhachHangs\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T07:25:11.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModelExtensions.cs",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\ModelExtensions.cs",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\Models\\ModelExtensions.cs",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\Models\\ModelExtensions.cs",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\Models\\ModelExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:53:59.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\appsettings.json",
+              "RelativeDocumentMoniker": "QLBH_LeVanHoa_65131052\\appsettings.json",
+              "ToolTip": "D:\\QLBH_LeVanHoa_65131052\\QLBH_LeVanHoa_65131052\\appsettings.json",
+              "RelativeToolTip": "QLBH_LeVanHoa_65131052\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T06:46:35.68Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

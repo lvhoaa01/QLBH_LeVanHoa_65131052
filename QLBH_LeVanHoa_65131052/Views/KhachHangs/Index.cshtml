@@ -1,0 +1,64 @@
+﻿@model IEnumerable<QLBH_LeVanHoa_65131052.Models.KhachHang>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Danh sách Khách Hàng</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Thêm Khách Hàng
+            </a>
+        </div>
+    </div>
+
+    <form asp-action="Index" method="get" class="mt-3">
+        <div class="input-group mb-3">
+            <input type="text" name="search" class="form-control" placeholder="Nhập tên khách hàng cần tìm..." value="@ViewBag.Search">
+            <button class="btn btn-outline-secondary" type="submit">Tìm kiếm</button>
+        </div>
+    </form>
+
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Mã KH</th>
+                <th>Tên KH</th>
+                <th>Ảnh</th>
+                <th>Điện thoại</th>
+                <th>Email</th>
+                <th>Địa chỉ</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.MaKh</td>
+                    <td>@obj.TenKh</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(obj.AnhKh))
+                        {
+                            <img src="~/images/khachhang/@obj.AnhKh" width="50px" height="50px" style="border-radius:5px; border:1px solid #ccc" />
+                        }
+                        else
+                        {
+                            <span>Không có ảnh</span>
+                        }
+                    </td>
+                    <td>@obj.DienThoaiKh</td>
+                    <td>@obj.EmailKh</td>
+                    <td>@obj.TenXa, @obj.TenTinh</td>
+                    <td>
+                        <div class="w-full btn-group d-flex justify-content-between" role="group">
+                            <a asp-action="Details" asp-route-id="@obj.MaKh" class="btn btn-light mx-1 p-1">Chi tiết</a>
+                            <a asp-action="Edit" asp-route-id="@obj.MaKh" class="btn btn-primary mx-1 p-1">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@obj.MaKh" class="btn btn-danger mx-1 p-1">Xóa</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

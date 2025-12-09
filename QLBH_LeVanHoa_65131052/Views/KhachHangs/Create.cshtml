@@ -1,0 +1,40 @@
+﻿@model QLBH_LeVanHoa_65131052.Models.KhachHang
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Thêm Khách Hàng</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="TenKh">Tên Khách Hàng</label>
+            <input asp-for="TenKh" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="DienThoaiKh">Điện thoại</label>
+            <input asp-for="DienThoaiKh" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="EmailKh">Email</label>
+            <input asp-for="EmailKh" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="DiaChiKh">Địa chỉ chi tiết</label>
+            <input asp-for="DiaChiKh" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="MaXa">Phường/Xã</label>
+            <select asp-for="MaXa" asp-items="@ViewBag.Xas" class="form-select">
+                <option disabled selected>-- Chọn Phường/Xã --</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label>Ảnh đại diện</label>
+            <input type="file" name="image" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:150px">Lưu</button>
+        <a asp-action="Index" class="btn btn-secondary" style="width:150px">Hủy</a>
+    </div>
+</form>

@@ -1,0 +1,45 @@
+﻿@model QLBH_LeVanHoa_65131052.Models.KhachHang
+
+<form method="post" asp-action="Delete">
+    <input asp-for="MaKh" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Xóa Khách Hàng</h2>
+            <hr />
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="mb-3">
+                    <label>Tên Khách Hàng</label>
+                    <input asp-for="TenKh" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label>Điện thoại</label>
+                    <input asp-for="DienThoaiKh" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input asp-for="EmailKh" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label>Địa chỉ</label>
+                    <input asp-for="DiaChiKh" disabled class="form-control" />
+                </div>
+            </div>
+            <div class="col-4">
+                @if (!string.IsNullOrEmpty(Model.AnhKh))
+                {
+                    <img src="~/images/khachhang/@Model.AnhKh" width="100%" style="border-radius:5px; border:1px solid #bbb" />
+                }
+            </div>
+        </div>
+
+        <div class="alert alert-danger mt-3">
+            Cảnh báo: Hành động này không thể hoàn tác!
+        </div>
+
+        <button type="submit" class="btn btn-danger" style="width:150px">Xác nhận Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary" style="width:150px">Hủy</a>
+    </div>
+</form>

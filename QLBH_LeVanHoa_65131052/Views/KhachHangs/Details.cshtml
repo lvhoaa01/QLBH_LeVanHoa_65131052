@@ -1,0 +1,77 @@
+﻿@model QLBH_LeVanHoa_65131052.Models.KhachHang
+
+@{
+    ViewData["Title"] = "Chi tiết khách hàng";
+}
+
+<div class="container border p-3 mt-4">
+    <div class="row pb-2">
+        <h2 class="text-primary">Thông tin chi tiết Khách Hàng</h2>
+        <hr />
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="mb-3">
+                <label asp-for="MaKh" class="fw-bold">Mã Khách Hàng</label>
+                <input asp-for="MaKh" disabled class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TenKh" class="fw-bold">Họ và Tên</label>
+                <input asp-for="TenKh" disabled class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="DienThoaiKh" class="fw-bold">Số điện thoại</label>
+                <input asp-for="DienThoaiKh" disabled class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EmailKh" class="fw-bold">Email</label>
+                <input asp-for="EmailKh" disabled class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="DiaChiKh" class="fw-bold">Địa chỉ chi tiết</label>
+                <input asp-for="DiaChiKh" disabled class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="fw-bold">Khu vực (Xã - Tỉnh)</label>
+                @* Hiển thị kết hợp Tên Xã và Tên Tỉnh *@
+                <input value="@Model.TenXa - @Model.TenTinh" disabled class="form-control" />
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <label class="fw-bold mb-2">Ảnh đại diện</label>
+            <div class="border p-2 rounded bg-light">
+                @if (!string.IsNullOrEmpty(Model.AnhKh))
+                {
+                    <img src="~/images/khachhang/@Model.AnhKh" class="img-fluid"
+                         style="max-height: 300px; object-fit: contain;" alt="Ảnh khách hàng" />
+                }
+                else
+                {
+                    <div class="alert alert-secondary mt-3">
+                        <i class="bi bi-person-x"></i> Không có ảnh
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-6">
+            <a asp-action="Edit" asp-route-id="@Model.MaKh" class="btn btn-primary w-100">
+                <i class="bi bi-pencil-square"></i> Cập nhật hồ sơ
+            </a>
+        </div>
+        <div class="col-6">
+            <a asp-action="Index" class="btn btn-secondary w-100">
+                <i class="bi bi-arrow-return-left"></i> Quay lại danh sách
+            </a>
+        </div>
+    </div>
+</div>
